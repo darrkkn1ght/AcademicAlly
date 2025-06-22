@@ -1,0 +1,227 @@
+{
+  level: 'info',
+  message: 'Cloudinary initialized for file uploads',
+  timestamp: '2025-06-22 23:02:40'
+}
+{
+  error: {
+    message: 'nodemailer.createTransporter is not a function',
+    stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+      '    at EmailService.init (C:\\Users\\Admin\\Desktop\\AcademicAlly\\server\\src\\services\\emailService.js:36:39)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)',
+    name: 'TypeError'
+  },
+  level: 'error',
+  message: 'Failed to initialize email service:',
+  timestamp: '2025-06-22 23:02:41'
+}
+{
+  level: 'info',
+  message: 'Cloudinary initialized for file uploads',
+  timestamp: '2025-06-22 23:11:59'
+}
+{
+  level: 'info',
+  message: 'Email service initialized successfully',
+  timestamp: '2025-06-22 23:12:04'
+}
+{
+  level: 'info',
+  message: 'Database connected successfully',
+  timestamp: '2025-06-22 23:12:04'
+}
+{
+  level: 'info',
+  message: '==================================================',
+  timestamp: '2025-06-22 23:12:04'
+}
+{
+  level: 'info',
+  message: '🚀 AcademicAlly Server Started Successfully!',
+  timestamp: '2025-06-22 23:12:04'
+}
+{
+  level: 'info',
+  message: '📍 Server: http://localhost:5000',
+  timestamp: '2025-06-22 23:12:04'
+}
+{
+  level: 'info',
+  message: '📱 Client: http://localhost:3000',
+  timestamp: '2025-06-22 23:12:04'
+}
+{
+  level: 'info',
+  message: '🗄️  Database: Development',
+  timestamp: '2025-06-22 23:12:04'
+}
+{
+  level: 'info',
+  message: '🔒 Environment: development',
+  timestamp: '2025-06-22 23:12:04'
+}
+{
+  level: 'info',
+  message: '📊 Health Check: http://localhost:5000/api/health',
+  timestamp: '2025-06-22 23:12:04'
+}
+{
+  level: 'info',
+  message: '📚 API Docs: http://localhost:5000/api',
+  timestamp: '2025-06-22 23:12:04'
+}
+{
+  level: 'info',
+  message: '==================================================',
+  timestamp: '2025-06-22 23:12:04'
+}
+{
+  level: 'info',
+  message: 'SIGINT received, starting graceful shutdown...',
+  timestamp: '2025-06-22 23:13:07'
+}
+{
+  level: 'info',
+  message: 'Cloudinary initialized for file uploads',
+  timestamp: '2025-06-22 23:16:02'
+}
+{
+  level: 'info',
+  message: 'Email service initialized successfully',
+  timestamp: '2025-06-22 23:16:04'
+}
+{
+  level: 'info',
+  message: 'Database connected successfully',
+  timestamp: '2025-06-22 23:16:07'
+}
+{
+  level: 'info',
+  message: '==================================================',
+  timestamp: '2025-06-22 23:16:07'
+}
+{
+  level: 'info',
+  message: '🚀 AcademicAlly Server Started Successfully!',
+  timestamp: '2025-06-22 23:16:07'
+}
+{
+  level: 'info',
+  message: '📍 Server: http://localhost:5000',
+  timestamp: '2025-06-22 23:16:07'
+}
+{
+  level: 'info',
+  message: '📱 Client: http://localhost:3000',
+  timestamp: '2025-06-22 23:16:07'
+}
+{
+  level: 'info',
+  message: '🗄️  Database: Development',
+  timestamp: '2025-06-22 23:16:07'
+}
+{
+  level: 'info',
+  message: '🔒 Environment: development',
+  timestamp: '2025-06-22 23:16:07'
+}
+{
+  level: 'info',
+  message: '📊 Health Check: http://localhost:5000/api/health',
+  timestamp: '2025-06-22 23:16:07'
+}
+{
+  level: 'info',
+  message: '📚 API Docs: http://localhost:5000/api',
+  timestamp: '2025-06-22 23:16:07'
+}
+{
+  level: 'info',
+  message: '==================================================',
+  timestamp: '2025-06-22 23:16:07'
+}
+{
+  level: 'info',
+  message: 'SIGINT received, starting graceful shutdown...',
+  timestamp: '2025-06-22 23:16:21'
+}
+{
+  level: 'info',
+  message: 'Cloudinary initialized for file uploads',
+  timestamp: '2025-06-22 23:19:27'
+}
+{
+  level: 'info',
+  message: 'Email service initialized successfully',
+  timestamp: '2025-06-22 23:19:33'
+}
+{
+  level: 'info',
+  message: 'Database connected successfully',
+  timestamp: '2025-06-22 23:19:36'
+}
+{
+  level: 'info',
+  message: '==================================================',
+  timestamp: '2025-06-22 23:19:36'
+}
+{
+  level: 'info',
+  message: '🚀 AcademicAlly Server Started Successfully!',
+  timestamp: '2025-06-22 23:19:36'
+}
+{
+  level: 'info',
+  message: '📍 Server: http://localhost:5000',
+  timestamp: '2025-06-22 23:19:36'
+}
+{
+  level: 'info',
+  message: '📱 Client: http://localhost:3000',
+  timestamp: '2025-06-22 23:19:36'
+}
+{
+  level: 'info',
+  message: '🗄️  Database: Development',
+  timestamp: '2025-06-22 23:19:36'
+}
+{
+  level: 'info',
+  message: '🔒 Environment: development',
+  timestamp: '2025-06-22 23:19:36'
+}
+{
+  level: 'info',
+  message: '📊 Health Check: http://localhost:5000/api/health',
+  timestamp: '2025-06-22 23:19:36'
+}
+{
+  level: 'info',
+  message: '📚 API Docs: http://localhost:5000/api',
+  timestamp: '2025-06-22 23:19:36'
+}
+{
+  level: 'info',
+  message: '==================================================',
+  timestamp: '2025-06-22 23:19:36'
+}
+{
+  level: 'warn',
+  message: '404 - Route not found: GET /main.dd5bc327409921350a89.hot-update.json - IP: ::1',
+  timestamp: '2025-06-23 00:11:13'
+}
+{
+  level: 'info',
+  message: 'GET /main.dd5bc327409921350a89.hot-update.json - 404 - 18ms - ::1',
+  timestamp: '2025-06-23 00:11:13'
+}
+{
+  level: 'warn',
+  message: '404 - Route not found: POST /api/api/auth/login - IP: ::1',
+  timestamp: '2025-06-23 00:29:08'
+}
+{
+  level: 'info',
+  message: 'POST /api/api/auth/login - 404 - 6ms - ::1',
+  timestamp: '2025-06-23 00:29:08'
+}
