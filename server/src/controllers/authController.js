@@ -55,6 +55,8 @@ const register = async (req, res, next) => {
   try {
     const {
       name,
+      firstName,
+      lastName,
       email,
       password,
       university,
@@ -65,8 +67,14 @@ const register = async (req, res, next) => {
       availability
     } = req.body;
 
+    // Accept either name or firstName+lastName
+    let fullName = name;
+    if (!fullName && firstName && lastName) {
+      fullName = `${firstName.trim()} ${lastName.trim()}`;
+    }
+
     // Validation
-    if (!name || !email || !password || !university || !year || !major) {
+    if (!fullName || !email || !password || !university || !year || !major) {
       return res.status(400).json({
         success: false,
         message: 'Please provide all required fields'
@@ -84,7 +92,7 @@ const register = async (req, res, next) => {
 
     // Create user
     const user = await User.create({
-      name: name.trim(),
+      name: fullName.trim(),
       email: email.toLowerCase().trim(),
       password,
       university: university.trim(),
@@ -139,6 +147,7 @@ const register = async (req, res, next) => {
 // @access  Public
 const login = async (req, res, next) => {
   try {
+    console.log('LOGIN BODY:', req.body);
     const { email, password } = req.body;
 
     // Validate email and password

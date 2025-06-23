@@ -487,9 +487,9 @@ class UploadService {
 const uploadService = new UploadService();
 
 // Schedule cleanup of old temporary files (run daily)
-setInterval(() => {
-  uploadService.cleanupOldFiles('academically/temp', 24)
-    .catch(error => logger.error('Scheduled cleanup failed:', error));
-}, 24 * 60 * 60 * 1000); // 24 hours
+// setInterval(() => {
+//   uploadService.cleanupOldFiles('academically/temp', 24)
+//     .catch(error => logger.error('Scheduled cleanup failed:', error));
+// }, 24 * 60 * 60 * 1000); // 24 hours
 
 module.exports = uploadService;
